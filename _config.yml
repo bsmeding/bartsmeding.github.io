@@ -26,7 +26,7 @@ description: >- # used by seo meta and the atom feed
   Bart Smeding, automation blog about infrastructure and home automation, Ansible, Python, Home-Assistant
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://www.bartsmeding.nl"
+url: "https://bartsmeding.github.io"
 
 github:
   username: bsmeding # change to your github username
@@ -102,10 +102,10 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
+    enabled: true # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development|production]
+    env: development # [development|production]
 
 pwa:
   enabled: true # the option for PWA feature
